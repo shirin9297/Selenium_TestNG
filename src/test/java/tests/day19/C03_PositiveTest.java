@@ -22,7 +22,7 @@ public class C03_PositiveTest {
         hmcPage.login.click();
         //test data username: manager,
         // test data password : Manager1!
-        hmcPage.username.sendKeys(ConfigReader.getProperty("user"));
+        hmcPage.userName.sendKeys(ConfigReader.getProperty("user"));
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.TAB).sendKeys(ConfigReader.getProperty("password"))
                 .sendKeys(Keys.ENTER).perform();

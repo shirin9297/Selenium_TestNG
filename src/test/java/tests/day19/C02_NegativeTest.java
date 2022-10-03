@@ -19,7 +19,7 @@ public class C02_NegativeTest {
         //login butonuna bas
         hmcPage.login.click();
         //test data username: manager1 ,  test data password : manager1!
-        hmcPage.username.sendKeys(ConfigReader.getProperty("hmcWrongUser"));
+        hmcPage.userName.sendKeys(ConfigReader.getProperty("hmcWrongUser"));
         Actions actions = new Actions(Driver.getDriver());
         actions.sendKeys(Keys.TAB).sendKeys(ConfigReader.getProperty("hmcWrongPass"))
                 .sendKeys(Keys.ENTER).perform();

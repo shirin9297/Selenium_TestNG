@@ -50,5 +50,7 @@ public class P01 {
          * javadan öğrenmis olduğumuz oop concept selenium ile page object model de birlesitirilmis oluyuor
          *
          */
+
+
     }
 }
