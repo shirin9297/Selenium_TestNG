@@ -44,5 +44,7 @@ public class P01 extends TestBaseBeforeAfter {
         driver.findElement(By.xpath("//select[@id='selenium_commands']/option[1]")).click();
         //click submit button
         driver.findElement(By.xpath("//button[@id='submit']")).click();
+
+
     }
 }
