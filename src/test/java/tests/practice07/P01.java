@@ -20,6 +20,7 @@ public class P01 {
     //Tüm yapılacakları sil.
     //Tüm yapılacakların silindiğini doğrulayın.
     //EXPLORATORY testing
+
     @Test
     public void test01() throws InterruptedException {
         //  // http://webdriveruniversity.com/To-Do-List/index.html adresine gidin adresine gidin
@@ -51,4 +52,5 @@ public class P01 {
         Assert.assertEquals(0,newtodos.size());
     }
 }
+
 
