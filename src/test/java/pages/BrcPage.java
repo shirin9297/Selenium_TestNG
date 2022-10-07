@@ -9,4 +9,14 @@ public class BrcPage {
     }
     @FindBy (xpath = "//*[@class='btn btn-primary btn-sm']")
     public WebElement brclogin;
+
+    @FindBy (xpath = "//*[@id='formBasicEmail']")
+    public WebElement userEmail;
+
+    @FindBy (xpath = "//*[@id='dropdown-basic-button']")
+    public WebElement basariliGiris;
+
+    @FindBy (xpath = "//*[@class='btn btn-primary']")
+    public WebElement ikinciLogin;
+
 }
