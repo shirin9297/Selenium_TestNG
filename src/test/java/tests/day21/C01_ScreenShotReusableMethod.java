@@ -6,10 +6,13 @@ import pages.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
 public class C01_ScreenShotReusableMethod {
+    private static Logger logger = LogManager.getLogger(C01_ScreenShotReusableMethod.class.getName());
     @Test
     public void test01() throws IOException {
         //Hepsiburada sayfasına gidiniz
